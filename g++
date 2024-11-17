@@ -1,0 +1,1 @@
+g++ main.cpp handler.cpp mkbin.cpp stuff.cpp

@@ -1,0 +1,3 @@
+D:/Programming/C++ projects/syscal/build/CMakeFiles/BinaryToolkit.dir
+D:/Programming/C++ projects/syscal/build/CMakeFiles/ALL_BUILD.dir
+D:/Programming/C++ projects/syscal/build/CMakeFiles/ZERO_CHECK.dir
