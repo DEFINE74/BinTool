@@ -1,8 +1,0 @@
-﻿  Building Custom Rule D:/Programming/C++ projects/syscal/build/CMakeLists.txt
-  main.cpp
-  handler.cpp
-  mkbin.cpp
-  stuff.cpp
-  Создание кода...
-handler.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl mkbin(void)" (?mkbin@@YAXXZ) в функции "int __cdecl CommandHandler(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CommandHandler@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
-D:\Programming\C++ projects\syscal\build\Debug\BinaryToolkit.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
