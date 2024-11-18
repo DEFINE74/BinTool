@@ -13,7 +13,7 @@ int main() {
     int result = CommandHandler(command);
 
     if (result == 3) break;
-    else if (result == -1) cout << "FATAL: INCORRECT COMMAND!";
+    else if (result == -1) cout << "FATAL: INCORRECT COMMAND!" << endl;
   }
   return 0;
 }

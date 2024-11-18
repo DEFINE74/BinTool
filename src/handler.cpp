@@ -7,8 +7,7 @@ int CommandHandler(string command) {
   else if (command == "quit") return 3;
   else if (command == "clear") Clear();
   else if (command == "mkbin") mkbin();
-  else {
-    cout << "FATAL: INCORRECT COMMAND!";
-  }
+  else return -1;
+  
   return 0;
 }
