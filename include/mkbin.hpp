@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <limits>
 
 int EnterDecimal();
 std::string GetBinary(int decimal_number);

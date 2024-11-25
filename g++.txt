@@ -1,3 +1,10 @@
 g++ main.cpp handler.cpp mkbin.cpp stuff.cpp - default compiling
 
 g++ -std=c++17 -static-libgcc -static-libstdc++ -static -o BinaryToolkit.exe main.cpp handler.cpp mkbin.cpp stuff.cpp - portable static compiling 
+
+
+icon 
+windres resources.rc -o resources.o - object
+
+compile + icon
+g++ -o BinaryToolkit.exe main.cpp handler.cpp mkbin.cpp stuff.cpp resources.o -static-libgcc -static-libstdc++  
